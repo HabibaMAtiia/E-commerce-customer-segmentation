@@ -6,3 +6,11 @@
   - Customers Table: Contains customer demographic information (gender, city).
   - Transactions Table: Records coupon usage history (claimed, burnt).
   - Branches, Merchants, Cities Tables: Additional information about coupon burn locations.
+  ## Feature Engineering
+  - Key features for segmentation:
+    - Recency: Time since the last transaction.
+    - Transaction Frequency: How often customers claim or burn coupons.
+    - Burn Rate: Ratio of burnt coupons to claimed ones.
+    - Merchant Frequency: Number of interactions with different merchants.
+    - City Frequency: Frequency of transactions across different cities.
+    - Gender: One-hot encoded as gender_name_Female, gender_name_Male.
