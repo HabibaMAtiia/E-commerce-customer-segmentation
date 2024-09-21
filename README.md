@@ -14,3 +14,7 @@
     - Merchant Frequency: Number of interactions with different merchants.
     - City Frequency: Frequency of transactions across different cities.
     - Gender: One-hot encoded as gender_name_Female, gender_name_Male.
+  ## Model Development
+    1. K-means
+    2. DBSCAN
+    3. Hierarchical Clustering
