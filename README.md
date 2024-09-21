@@ -18,3 +18,7 @@
     1. K-means
     2. DBSCAN
     3. Hierarchical Clustering
+## Evaluation Metrics
+  - The model was evaluated using the following metrics:
+    - Inertia (for K-Means): Measures how well the clusters are formed based on the distance between data points and their assigned cluster centroids.
+    - Silhouette Score: Assesses how well customers are clustered, taking into account both the cohesion within clusters and separation between clusters.
