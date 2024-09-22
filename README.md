@@ -15,7 +15,7 @@
   - Branches, Merchants, Cities Tables: Additional information about coupon burn locations.
 ## Installation
 ## Feature Engineering
- - Aggregation:
+  - Aggregation:
     - Recency: Time since the last transaction.
     - Transaction Frequency: How often customers claim or burn coupons.
     - Burn Rate: Ratio of burnt coupons to claimed ones.
