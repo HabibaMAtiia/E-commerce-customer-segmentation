@@ -11,9 +11,9 @@
 ## Dataset
 - The dataset includes several tables, such as:
   - Customers Table: Contains customer demographic information (gender, city).
-  - Transactions Table: Records coupon usage history (claimed, burnt).
-  - Branches, Merchants, Cities Tables: Additional information about coupon burn locations.
-## Installation
+  - Transactions Table: Records coupon usage history (subscribed, burnt).
+  - City Table: Contains the Name of the customer's city.
+  - Branches, Merchants Tables: Additional information about coupon burn locations.
 ## Feature Engineering
   - Aggregation:
     - Recency: Time since the last transaction.
@@ -41,4 +41,12 @@
 ## Results
  - K-Means with 2D PCA and 5 clusters was selected as the final model based on its performance in identifying meaningful customer groups.
 ## Segment Analysis 
+ - Cluster 0: Low Engagement Female Segment.
+ - Cluster 1: High Transaction Male Segment.
+ - Cluster 2: Moderate Engagement Male Segment.
+ - Cluster 3: High Burn Rate and Frequent Shopper Male Segment.
+ - Cluster 4: Low Engagement but Frequent Female Segment.
 ## Recommendations
+ - Focus on Cluster 1 and 3 for premium loyalty programs, as they represent high-engagement customers who are likely to respond positively to exclusive deals.
+ - Re-engage Clusters 0 and 4 through personalized campaigns, focusing on their previous high coupon usage or transaction frequency but recent inactivity.
+ - Encourage increased engagement in Cluster 2 by offering tailored promotions and location-specific discounts.
