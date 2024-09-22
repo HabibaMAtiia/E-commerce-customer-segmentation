@@ -29,14 +29,14 @@
  - PCA
  - TSNE
 ## Model Development
-    1. K-means
-    2. DBSCAN
-    3. Gaussian Mixture
-    4. Hierarchical Clustering
+  1. K-means
+  2. DBSCAN
+  3. Gaussian Mixture
+  4. Hierarchical Clustering
 ## Evaluation Metrics
   - The model was evaluated using the following metrics:
     - Inertia (for K-Means): Measures how well the clusters are formed based on the distance between data points and their assigned cluster centroids.
     - Elbow Method: Used to decide the appropriate number of clusters.
-    - Silhouette Score: Assesses how well customers are clustered, taking into account both the cohesion within clusters and separation between clusters.
+    - Silhouette Score: Assesses how well customers are clustered, considers both the cohesion within clusters and separation between clusters.
 ## Results
  - K-Means with 2D PCA and 5 clusters was selected as the final model based on its performance in identifying meaningful customer groups.
