@@ -23,7 +23,7 @@
     - City Frequency: Frequency of transactions across different cities.
  - Encoding categorical features:
     - Gender: One-hot encoded as gender_name_Female, gender_name_Male.
- - Scaling numerical features
+ - Scaling numerical features:
     - Using Standard Scalar.
 ## Dimensionality Reduction
  - PCA
@@ -40,3 +40,5 @@
     - Silhouette Score: Assesses how well customers are clustered, considers both the cohesion within clusters and separation between clusters.
 ## Results
  - K-Means with 2D PCA and 5 clusters was selected as the final model based on its performance in identifying meaningful customer groups.
+## Segment Analysis 
+## Recommendations
